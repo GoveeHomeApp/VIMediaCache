@@ -1,0 +1,28 @@
+{
+  "name": "VIMediaCache",
+  "version": "0.4",
+  "license": "MIT",
+  "summary": "VIMediaCache is a tool to cache media file while play media using AVPlayer",
+  "homepage": "https://github.com/vitoziv/VIMediaCache",
+  "authors": {
+    "Vito": "vvitozhang@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/vitoziv/VIMediaCache.git",
+    "tag": "0.4"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": [
+    "MobileCoreServices",
+    "AVFoundation"
+  ],
+  "requires_arc": true,
+  "static_framework": true,
+  "vendored_frameworks": "VIMediaCache.xcframework",
+  "ios": {
+    "public_header_files": "VIMediaCache.xcframework/ios-arm64/*/Headers/*.h",
+    "source_files": "VIMediaCache.xcframework/ios-arm64/*/Headers/*.h"
+  }
+}
